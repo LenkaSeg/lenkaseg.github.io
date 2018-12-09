@@ -3,7 +3,7 @@ layout: post
 title: Outreachy experience
 ---
 
-![alt text](https://raw.githubusercontent.com/LenkaSeg/lenkaseg.github.io/master/images/outreachy-logo-not-square-no-background.svg)
+![Outreachy logo](https://raw.githubusercontent.com/LenkaSeg/lenkaseg.github.io/master/images/outreachy-logo-not-square-no-background.png)
 
 ## What is Outreachy?
 

@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello, I'm Lenka!
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Apart of chocolate ice cream I also like guacamole.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+IRC: lenka
+
+email: lenka AT sepu.cz

@@ -10,18 +10,19 @@ comments: true
 
 [Outreachy](https://www.outreachy.org/) provides 3-month internships to work in Free and 
 Open Source Software (FOSS) - as you can read on Outreachy front page. It is intended to
-people chronically underrepresented in tech.
+people underrepresented in tech.
 
-There two rounds each year, in the winter and in summer. It's very easy to apply. 
+There are two rounds each year, in the winter (December to March) and in the summer (May to August). It's very easy to apply. 
 The first step is to fill the eligibility form and wait for approval.
 
 Once approved, the applicant can see all the projects available with descriptions and 
 required sets of skills. I picked a project which corresponded with my skills and also 
 just sounded good to me - Fedora's Create CLI tool to interact with Pagure pull-requests 
-API. [Pagure](https://pagure.io/pagure) is a main Code Review system for Fedora community.
+API.
 
 ## My Outreachy winter 2018 project
 
+[Pagure](https://pagure.io/pagure) is a main Code Review system for Fedora community.
 The Pagure community is very friendly and helpful. I got a lot of help with my first 
 shaky contributions and with getting into the workflow. I felt very comfortable asking 
 even beginner's questions and got the answers quickly. My mentor, Alexandra Fedorova, pointed 

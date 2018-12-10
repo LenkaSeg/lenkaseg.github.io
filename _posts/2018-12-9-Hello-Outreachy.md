@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Outreachy experience
-comments:true
+comments: true
 ---
 
 ![Outreachy logo](https://raw.githubusercontent.com/LenkaSeg/lenkaseg.github.io/master/images/outreachy-logo.png)

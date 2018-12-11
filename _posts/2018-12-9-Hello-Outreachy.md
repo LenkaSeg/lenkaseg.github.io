@@ -25,7 +25,7 @@ API.
 [Pagure](https://pagure.io/pagure) is a main Code Review system for Fedora community.
 The Pagure community is very friendly and helpful. I got a lot of help with my first 
 shaky contributions and with getting into the workflow. I felt very comfortable asking 
-even beginner's questions and got the answers quickly. My mentor, Alexandra Fedorova, pointed 
+even beginner's questions and got the answers quickly. My mentor, Aleksandra Fedorova, pointed 
 me to more project-related issues and provided documentation.
 
 I applied to this project and luckily, it was approved. So happy!

@@ -32,6 +32,6 @@ I applied to this project and luckily, it was approved. So happy!
 
 Currently my task is to research on other CLI tools, their features and interface. 
 Also, to get familiar with [Click](https://pocoo-click.readthedocs.io/en/latest/) and 
-start writing the new project with simple functionality. More details about my task I'll 
-provide in my next post.
+start writing the new project with simple functionality. In my next post I'll provide 
+more details about my task.
 

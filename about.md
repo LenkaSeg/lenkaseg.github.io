@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello, I'm Lenka!
 
-Apart of chocolate ice cream I also like guacamole.
+Apart from chocolate ice cream I also like guacamole.
 
 ### Contact me
 

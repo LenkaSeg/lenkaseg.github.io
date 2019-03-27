@@ -20,7 +20,7 @@ I think I could use that too.
 I added bootstrap repos to `/etc/yum.repos.d/boot.repo`,
 that is to create a directory yum.repos.d and a file boot.repo with this content:
 
-`
+~~~~
 [fedora]
 name=Fedora $releasever - $basearch
 failovermethod=priority
@@ -38,7 +38,8 @@ metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$rele
 enabled=1
 gpgcheck=0
 repo_gpgcheck=0
-`
+~~~~
+
 Bootstrap:
 
 `yum --installroot=/var/lib/machines/fedora install systemd passwd dnf fedora-release NetworkManager`
@@ -46,11 +47,13 @@ Bootstrap:
 Set root password:
 
 `systemd-nspawn -M fedora`
+
 `passwd`
 
 Start and login into the container:
 
 `machinectl start fedora`
+
 `machinectl login fedora`
 
 And the Fedora container is working!

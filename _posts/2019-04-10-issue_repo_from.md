@@ -59,15 +59,13 @@ Here make some file, README.md for example and write something deeply meaningful
 
 Yeah, but I got an error here: 
 
-~~~
-remote: Traceback (most recent call last):
-remote:   File "hooks/pre-receive", line 31, in <module>
-remote:     import pagure.lib
-remote: ModuleNotFoundError: No module named 'pagure'
-To /home/mylovelyname/pagure/lcl/repos/clones/../carrot.git/
- ! [remote rejected] readme -> readme (pre-receive hook declined)
-error: failed to push some refs to '/home/mylovelyname/pagure/lcl/repos/clones/../carrot.git/'
-~~~
+    remote: Traceback (most recent call last):
+    remote:   File "hooks/pre-receive", line 31, in <module>
+    remote:     import pagure.lib
+    remote: ModuleNotFoundError: No module named 'pagure'
+    To /home/mylovelyname/pagure/lcl/repos/clones/../carrot.git/
+     ! [remote rejected] readme -> readme (pre-receive hook declined)
+    error: failed to push some refs to '/home/mylovelyname/pagure/lcl/repos/clones/../carrot.git/'
 
 What could go possibly wrong? What is with this pre-recieve hook and why the module can't
 be found?

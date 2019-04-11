@@ -20,7 +20,7 @@ fork repo. (Pingou mentions that the current API does not allow to specify the
 `repo_from` and the PR is being open on the fork, which is not allowed by default).
 The solution should be just to add the `repo_from` option to the API.
 
-I wanted to test the behavior locally. For that I used the Pagure local intance which
+I wanted to test the behavior locally. For that I used the Pagure local instance which
  I'm running manually from a Fedora container and virtual environment with python3.6.
 
 On the web interface I created the carrot repo, forked it and got an error while trying 
@@ -125,31 +125,31 @@ Run [cranc](https://pagure.io/cranc):
 
 1. Install and create the virtual environment:
 
-`pip3 install virtualenv`
+    * `pip3 install virtualenv`
 
-`virtualenv ~/venvs/cranc-env`
+    * `virtualenv ~/venvs/cranc-env`
 
-`source ~/venvs/cranc-env/bin`
+    * `source ~/venvs/cranc-env/bin`
 
 2. Retrieve the sources:
 
-`git clone https://pagure.io.cranc.git`
+    * `git clone https://pagure.io.cranc.git`
 
-`cd cranc`
+    * `cd cranc`
 
 3. Install the dependencies:
 
-`pip install -r requirements.txt`
+    * `pip install -r requirements.txt`
 
 4. Run the setup file:
 
-`python setup.py develop`
+    *`python setup.py develop`
 
 5. Run the command for opening a pull request from a fork:
 
-`cranc create pr --title "new readme" --repo carrot --branch_from readme branch_to master`
+    * `cranc create pr --title "new readme" --repo carrot --branch_from readme branch_to master`
 
-And I run into error:
+And I run into an error:
 
 ~~~
     PAGURE.log_debug(True)

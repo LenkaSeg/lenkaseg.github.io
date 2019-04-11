@@ -122,31 +122,32 @@ and it did. Ok, branch is pushed to the fork. Now it's time to use cranc to open
 request on the upstream.
 
 Run [cranc](https://pagure.io/cranc):
-    Install and create the virtual environment:
-    
-    `pip3 install virtualenv`
-    
-    `virtualenv ~/venvs/cranc-env`
 
-    `source ~/venvs/cranc-env/bin`
+1. Install and create the virtual environment:
 
-    Retrieve the sources:
+`pip3 install virtualenv`
 
-    `git clone https://pagure.io.cranc.git`
+`virtualenv ~/venvs/cranc-env`
 
-    `cd cranc`
+`source ~/venvs/cranc-env/bin`
 
-    Install the dependencies:
+2. Retrieve the sources:
 
-    `pip install -r requirements.txt`
+`git clone https://pagure.io.cranc.git`
 
-    Run the setup file:
+`cd cranc`
 
-    `python setup.py develop`
+3. Install the dependencies:
 
-    Run the command for opening a pull request from a fork:
+`pip install -r requirements.txt`
 
-    `cranc create pr --title "new readme" --repo carrot --branch_from readme branch_to master`
+4. Run the setup file:
+
+`python setup.py develop`
+
+5. Run the command for opening a pull request from a fork:
+
+`cranc create pr --title "new readme" --repo carrot --branch_from readme branch_to master`
 
 And I run into error:
 

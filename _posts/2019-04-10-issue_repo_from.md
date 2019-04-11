@@ -143,7 +143,7 @@ Run [cranc](https://pagure.io/cranc):
 
 4. Run the setup file:
 
-    *`python setup.py develop`
+    * `python setup.py develop`
 
 5. Run the command for opening a pull request from a fork:
 

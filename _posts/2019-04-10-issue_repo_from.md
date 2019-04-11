@@ -121,32 +121,32 @@ I get: Python 3.6.8 and that's what I wanted. Let's try if the branch gets pushe
 and it did. Ok, branch is pushed to the fork. Now it's time to use cranc to open a pull
 request on the upstream.
 
-    Run [cranc](https://pagure.io/cranc):
-        Install and create the virtual environment:
-        
-        `pip3 install virtualenv`
-        
-        `virtualenv ~/venvs/cranc-env`
+Run [cranc](https://pagure.io/cranc):
+    Install and create the virtual environment:
+    
+    `pip3 install virtualenv`
+    
+    `virtualenv ~/venvs/cranc-env`
 
-        `source ~/venvs/cranc-env/bin`
+    `source ~/venvs/cranc-env/bin`
 
-        Retrieve the sources:
+    Retrieve the sources:
 
-        `git clone https://pagure.io.cranc.git`
+    `git clone https://pagure.io.cranc.git`
 
-        `cd cranc`
+    `cd cranc`
 
-        Install the dependencies:
+    Install the dependencies:
 
-        `pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
-        Run the setup file:
- 
-        `python setup.py develop`
+    Run the setup file:
 
-        Run the command for opening a pull request from a fork:
+    `python setup.py develop`
 
-        `cranc create pr --title "new readme" --repo carrot --branch_from readme branch_to master`
+    Run the command for opening a pull request from a fork:
+
+    `cranc create pr --title "new readme" --repo carrot --branch_from readme branch_to master`
 
 And I run into error:
 

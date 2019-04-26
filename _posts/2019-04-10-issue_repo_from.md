@@ -108,6 +108,12 @@ I just want to be sure the link is only a way to access the file, but they do no
 each other. More info in the 
 [link](https://www.linuxnix.com/soft-link-vs-hard-link-in-linuxnix/)
 
+Another note to self: If the pagure module happens to not be found and the python with 
+python3 correctly point to python3.6, try to check if the pagure is actually not 
+installed out of the virtual 
+environment. Actually since it's in a separate container, just don't use any venv, install and run
+pagure directly. You'll save yourself a lot of time and frustration next time.
+
 Now, when I run:
 
 `/usr/bin/python3 --version`

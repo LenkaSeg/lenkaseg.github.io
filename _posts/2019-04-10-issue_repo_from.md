@@ -227,3 +227,25 @@ _check_token(repo)
 
 That is all and the pull requests are now opened on the parent repo, and the parent repo
 is checked to have the pull requests allowed.
+
+
+### Update:
+
+> > I think this would work but it only supports opening a PR against a parent repo, not against, for example another fork.
+> > So I wonder if we shouldn't just have a new argument: repo_from.
+> > You would then open the PR on the API of the project you want to open the PR to (so that'd be project_to) and specify in your request from which project the changes should be pulled.
+
+                                                               Pingou
+
+I added the repo_from just behind the branch_from and branch_to in pagure/api/fork.py. To see
+what it actually does I need to add this option to cranc and libpagure.
+
+Note to self: I needed to confirm that I'm using the local version of libpagure, so I can modify it.
+For this would be really handy to finally learn this two commands:
+
+`rpm -qa` for the rpm installed packages and
+`pip3.6 list` for the pip installed packages 
+
+There is a symlink to the local libpagure, so that's fine.
+
+

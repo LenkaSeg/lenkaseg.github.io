@@ -57,3 +57,10 @@ Start and login into the container:
 `machinectl login fedora`
 
 And the Fedora container is working!
+
+Update: Or at least mostly working. There is some problem starting the machine the next time just
+with `machinectl start fedora`. It results in some Permission denied stuff. Solution: start the
+container like with systemd-nspawn and path to the machine:
+
+`sudo systemd-nspawn -b -D /var/lib/machines/fedora`
+

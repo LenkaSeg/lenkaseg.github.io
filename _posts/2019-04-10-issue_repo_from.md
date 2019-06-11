@@ -155,7 +155,7 @@ Run [cranc](https://pagure.io/cranc):
 
 And I run into an error:
 
-~~~
+~~~python
     PAGURE.log_debug(True)
 AttributeError: 'Pagure' object has no attribute 'log_debug'
 ~~~

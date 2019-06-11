@@ -10,10 +10,12 @@ to upstream:
 `cranc create pr --title new_readme --repo carrot --branch_from readme --branch_to master`
 I ran into this problem:
 
-~~~
+{% raw %}
+~~~python
 raise APIError(output["error"])
 libpagure.exceptions.APIError: Pull-Request have been deactivated for this project
 ~~~
+{% endraw %}
 
 The issue was probably caused by not allowing to open a PR on the target repo from the
 fork repo. (Pingou mentions that the current API does not allow to specify the 

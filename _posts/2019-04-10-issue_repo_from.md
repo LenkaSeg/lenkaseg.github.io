@@ -210,20 +210,20 @@ repo = _get_repo(repo, username, namespace)
 and I change the repo, which is being checked for if the pull requests are allowed, to
 parent:
 
-~~~
+``
 _check_pull_request(parent)
-~~~
+``
 
 Now the entire part looks like this:
 
-~~~
+``
 parent = repo
 if repo.parent:
     parent = repo.parent
 
 _check_pull_request(parent)
 _check_token(repo)
-~~~
+``
 
 That is all and the pull requests are now opened on the parent repo, and the parent repo
 is checked to have the pull requests allowed.

@@ -231,14 +231,12 @@ is checked to have the pull requests allowed.
 
 ### Update:
 
-> > I think this would work but it only supports opening a PR against a parent repo, not against, for example another fork.
-> > So I wonder if we shouldn't just have a new argument: repo_from.
-> > You would then open the PR on the API of the project you want to open the PR to (so that'd be project_to) and specify in your request from which project the changes should be pulled.
+It should be possible not only to open a PR from fork to its parent, but also from fork to another
+fork. Thus, there should be a new argument specifying the target repo: `repo_from`. The repo_to
+would be taken from the api url.
 
-                                                               Pingou
-
-I added the repo_from just behind the branch_from and branch_to in pagure/api/fork.py. To see
-what it actually does I need to add this option to cranc and libpagure.
+The new argument has to be placed before the `_check_token(repo_from)`, otherwise no related token
+can be found.
 
 Note to self: I needed to confirm that I'm using the local version of libpagure, so I can modify it.
 For this would be really handy to finally learn this two commands:
@@ -248,4 +246,9 @@ For this would be really handy to finally learn this two commands:
 
 There is a symlink to the local libpagure, so that's fine.
 
-
+`repo_to` is taken from the api url. `repo_from` has to be passed to Pagure from Libpagure and
+Cranc. Cranc is expecting an argument --repo_from in four possible forms:
+`repo`
+`namespace/repo`
+`fork/username/repo`
+`fork/username/namespace/repo`

@@ -64,3 +64,6 @@ container like with systemd-nspawn and path to the machine:
 
 `sudo systemd-nspawn -b -D /var/lib/machines/fedora`
 
+Update: How to access files located in the fedora container from arch:
+Just go as sudo to /var/lib/machines/fedora and all the path till the desired place and copy
+from there to arch. Fairly easy. Thanks Pingou.

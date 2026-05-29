@@ -4,8 +4,6 @@ title: Onboarding a Forgejo-hosted project to Fedora Konflux
 comments: true
 ---
 
-# Onboarding a Forgejo-hosted project to Fedora Konflux
-
 So you want to build container images on the Fedora Konflux instance? This
 guide walks through the full process we followed to onboard a Codeberg-hosted
 repository. It covers everything from getting access to the GitLab config repo
